@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 const port = 9000;
 app.use("/", (req, res) => {
-  res.json({ message: "Hello From Express App" });
+  res.json({ message: "Hello From Express Ap" });
 });
 
 app.listen(9000, () => {
