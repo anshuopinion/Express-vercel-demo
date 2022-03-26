@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello From Express Ap" });
 });
 
-app.get('hello', (req, res)=>{
+app.get('/hello', (req, res)=>{
   res.send('heel')
 });
 
